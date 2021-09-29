@@ -1,0 +1,24 @@
+{
+  "name": "variation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predelpoy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micaelffranco/variation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micaelffranco/variation/issues"
+  },
+  "homepage": "https://micaelffranco.github.io/variation",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
