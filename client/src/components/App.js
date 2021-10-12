@@ -6,10 +6,11 @@ const Dashboard = () => <h2>Dashboard</h2>;
 const SurveyNew = () => <h2>SurveyNew</h2>;
 const Landing = () => <h2>Landing</h2>;
 
+//container because of materialize css
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter className="container">
         <div>
           <Header />
           <Route exact={true} path ="/" component={Landing} />
