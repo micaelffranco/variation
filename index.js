@@ -8,8 +8,6 @@ require('./services/passport');
 
 mongoose.connect(keys.mongoURI);
 
-// commentario 1
-
 const app = express();
 
 app.use(
