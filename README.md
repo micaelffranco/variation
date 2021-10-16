@@ -4,6 +4,7 @@ Deployed to: https://rocky-everglades-46196.herokuapp.com
 
 Simple website focusing on using this technologies:
 ExpressJs | ReactJs | Redux | MongoDB
+
 With this project I learned:
 ◦ How to connect front-end React App to a ExpressJs backend
 ◦ Communicate data from MongoDB to my React application
